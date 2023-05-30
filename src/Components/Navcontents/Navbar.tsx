@@ -12,7 +12,7 @@ const Navbar = () => {
           <li className=" ">
             <a
               className="text-sm cursor-pointer hover:text-[#242565] hover:font-semibold"
-              href="#"
+              href="/create-profile"
             >
               Create Events
             </a>

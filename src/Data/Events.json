@@ -9,7 +9,8 @@
     },
     "title": "Wonder Girls 2010 Wonder Girls World Tour San Francisco",
     "subtitle":"We’ll get you directly seated and inside for you to enjoy the show.",
-    "location": ""
+    "location": "",
+    "category":"Others"
   },
   {
     "id": 2,
@@ -21,7 +22,8 @@
     },
     "title": "JYJ 2011 JYJ Worldwide Concert Barcelona",
     "subtitle":"Directly seated and inside for you to enjoy the show.",
-    "location": ""
+    "location": "",
+    "category":"Concert"
   },
   {
     "id": 3,
@@ -33,7 +35,8 @@
     },
     "title": "2011 Super Junior SM Town Live '10 World Tour New York City",
     "subtitle":"Directly seated and inside for you to enjoy the show.",
-    "location": ""
+    "location": "",
+    "category":"Party"
   },
   {
     "id": 4,
@@ -45,7 +48,8 @@
     },
     "title": "2011 Super Junior SM Town Live '10 World Tour New York City",
     "subtitle":"Directly seated and inside for you to enjoy the show.",
-    "location": ""
+    "location": "",
+    "category":"Conference"
   },
   {
     "id": 5,
@@ -57,7 +61,8 @@
     },
     "title": "Wonder Girls 2010 Wonder Girls World Tour San Francisco",
     "subtitle":"We’ll get you directly seated and inside for you to enjoy the show.",
-    "location": ""
+    "location": "",
+    "category":"Others"
   },
   {
     "id": 6,
@@ -69,6 +74,7 @@
     },
     "title": "JYJ 2011 JYJ Worldwide Concert Barcelona",
     "subtitle":"Directly seated and inside for you to enjoy the show.",
-    "location": ""
+    "location": "",
+    "category":"Conference"
   }
 ]

@@ -1,12 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 // import img1 from "../../assets/Rectangle 12 (1).svg";
-import events from "./Events.json";
+import events from "../../Data/Events.json";
+import CategoryFilter from "./CategoryFilter";
+import { getVisibleEvents } from "../../Services/Events-query";
 
 const Upcoming = () => {
+  const [selectedCategories, setSelectedCategories] = useState<string[]>([])
+
+  const onChangeCategoryHandler = (category: any, isChecked:  React.ChangeEvent<HTMLInputElement>) => {
+    isChecked ? setSelectedCategories(preValue => [...preValue,category]) : setSelectedCategories(selectedCategories.filter(cat => cat !== category))
+  }
+  const events  = getVisibleEvents(selectedCategories)
   return (
     <div className="grid grid-auto-fit-lg gap-[29px] w-full mt-4">
+      <CategoryFilter selectedCategories={selectedCategories} onChangeCategory={onChangeCategoryHandler}/>
       {events.map((event) => (
-        <div className="flex flex-col bg-[#fff] rounded-t-2xl rounded-b-sm shadow-sm overflow-hidden">
+        <div key={event.id} className="flex flex-col bg-[#fff] rounded-t-2xl rounded-b-sm shadow-sm overflow-hidden">
           <div className="h-[197.11px] w-full gap-1 overflow-hidden rounded-t-lg">
             <img className="w-full object-fit" src={event.url} alt={event.url} />
           </div>

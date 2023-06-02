@@ -10,7 +10,7 @@ const Footer = () => {
           events that fuel their passions and enrich their lives.
         </p>
       </div>
-      <div className="flex gap-4 justify-around align-middle">
+      <div className="flex gap-4 justify-around align-middle mt-2">
         <div className="flex flex-col gap-[24px]">
           <h4 className="text-[16px] lg:text-[18px] text-[#fff] font-semibold">
             Plan Events

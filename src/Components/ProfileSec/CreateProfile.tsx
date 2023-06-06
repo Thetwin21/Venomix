@@ -9,7 +9,7 @@ const CreateProfile = () => {
       <Navbar />
       <div className="w-full px-11">
         <div className="w-full h-72 flex justify-center text-center items-center">
-          <h2 className="font-bold text-[50px] text-[#100C0C] ">
+          <h2 className="font-bold text-5xl text-[#100C0C] ">
             Create your Venomix Host Identity
           </h2>
         </div>

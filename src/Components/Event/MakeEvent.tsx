@@ -11,7 +11,7 @@ const MakeEvent = () => {
             <h2 className='text-[#000000] font-bold text-[30px] lg:text-[34px]'>Make your own Event</h2>
             <p className='text-[16px] lg:text-[18px] lg:max-w-[60%] mb-[21px]'>Create your web3 event on a secured decentralised platform</p>
             <div className=''>
-                <button className='px-[70px] py-[16px] text-[16px] lg:text-[18px] font-semibold text-[#FFFFFF] lg:px-[90px] lg:py-[18px] bg-[#F5167E] rounded-[50px] border-none'>Create Events</button>
+                <button className='rounded-[50px] text-[16px] font-bold text-[#ffffff] px-[45px] py-3 self-center cursor-pointer bg-[#F5167E]'>Create Events</button>
             </div>
         </div>
         

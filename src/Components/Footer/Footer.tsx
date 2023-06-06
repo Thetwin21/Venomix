@@ -74,7 +74,7 @@ const Footer = () => {
                 placeholder="Enter your email address.."
               />
             </label>
-            <button className="rounded-[50px] text-[#fff] tex-[13px] border-none bg-[#F5167E] px-[30px] py-[15px] ">
+            <button className="rounded-[50px] text-[#fff] tex-[13px] border-none bg-[#F5167E] px-[30px] py-3 ">
               Subscibe Now
             </button>
           </div>

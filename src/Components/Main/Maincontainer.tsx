@@ -1,6 +1,6 @@
 import React from 'react'
 import Main from './Main'
-import Navbar from '../Navcontents/Navbar'
+import Navbar from '../Navcontents/Navbar.js'
 
 const Maincontainer = () => {
   return (

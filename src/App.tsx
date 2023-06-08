@@ -4,6 +4,8 @@ import LandingPg from './Components/LandingPg';
 import {Routes, Route} from "react-router-dom"
 import CreateProfile from './Components/ProfileSec/CreateProfile';
 import Dashboard from './Components/Dashboard/Dashboard';
+import BasicInfo from './Components/Finance/BasicInfo';
+import Details from './Components/Finance/Details';
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
         <Route path='/' element={<LandingPg />} />
         <Route path='/create-profile' element={<CreateProfile />} />
         <Route path='/dashboard' element={<Dashboard />} />
+        <Route path='/basic-info' element={<BasicInfo />} />
+        <Route path='/details' element={<Details />} />
       </Routes>
      
     </div>

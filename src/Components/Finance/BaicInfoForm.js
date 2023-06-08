@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 
 const BaicInfoForm = () => {
   return (
-    <div className='container mx-auto'>
+    <div className='container w-80 md:w-auto mx-auto'>
           <div className='mb-[20px]'>
             <span className='flex flex-col space-y-1 mt-6'>
                 <p className='text-black text-xl font-semibold'>Basic Info</p>
@@ -21,8 +21,8 @@ const BaicInfoForm = () => {
                   <h4 className='font-bold'>Date and Time</h4>
                   <p>Tell event-goers when your event starts and ends so they can make plans to attend.</p>
                   <div className='flex flex-row space-x-2 mt-5'>
-                      <input type="date" className='rounded w-full p-4 indent-2 border outline-none border-[#020000]' name="eventDate" placeholder='Search for a venue or address' id="eventDate" />
-                      <input type="time" className='rounded w-full p-4 indent-2 border outline-none border-[#020000]' name="eventTime" placeholder='Search for a venue or address' id="eventTime" />
+                      <input type="date" className='rounded w-full p-4 indent-2 border outline-none border-[#020000]' name="eventDate" id="eventDate" />
+                      <input type="time" className='rounded w-full p-4 indent-2 border outline-none border-[#020000]' name="eventTime" id="eventTime" />
                   </div>
                 
             </div>

@@ -30,7 +30,7 @@ const DetailsForm = () => {
                 <input type="text" className='rounded w-full p-4 indent-2 border outline-none border-[#020000]' name="eventDescription" id="eventDescription" />
               </div>
             <div className='w-full flex items-center justify-end my-5'>
-                <Link className='font-medium hover:cursor-pointer hover:font-bold rounded-[30px] bg-[#F5167E] font-light text-[#fff] px-10 py-2 text-[16px]'>Save and Continue</Link>
+                <Link to="/tickets" className='font-medium hover:cursor-pointer hover:font-bold rounded-[30px] bg-[#F5167E] font-light text-[#fff] px-10 py-2 text-[16px]'>Save and Continue</Link>
               </div>
               
         </div>

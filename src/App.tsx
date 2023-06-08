@@ -6,6 +6,7 @@ import CreateProfile from './Components/ProfileSec/CreateProfile';
 import Dashboard from './Components/Dashboard/Dashboard';
 import BasicInfo from './Components/Finance/BasicInfo';
 import Details from './Components/Finance/Details';
+import Tickets from './Components/Finance/Tickets';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path='/dashboard' element={<Dashboard />} />
         <Route path='/basic-info' element={<BasicInfo />} />
         <Route path='/details' element={<Details />} />
+        <Route path='/tickets' element={<Tickets />} />
       </Routes>
      
     </div>

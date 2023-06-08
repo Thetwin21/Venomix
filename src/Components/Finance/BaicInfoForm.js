@@ -24,7 +24,6 @@ const BaicInfoForm = () => {
                       <input type="date" className='rounded w-full p-4 indent-2 border outline-none border-[#020000]' name="eventDate" id="eventDate" />
                       <input type="time" className='rounded w-full p-4 indent-2 border outline-none border-[#020000]' name="eventTime" id="eventTime" />
                   </div>
-                
             </div>
             <div className='w-full flex items-center justify-end my-5'>
                 <Link to="/details" className='font-medium hover:cursor-pointer hover:font-bold rounded-[30px] bg-[#F5167E] font-light text-[#fff] px-10 py-2 text-[16px]'>Save and Continue</Link>

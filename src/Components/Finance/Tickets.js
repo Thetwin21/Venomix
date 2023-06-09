@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from "../Navcontents/Navbar.js";
+import Navbar from "../Navcontents/Navbar";
 import FooterContainer from "../Footer/FooterContainer";
 import DashboardNav from "..//Dashboard/DashboardNav.js"
 import TicketsForm from "./TicketsForm.js"

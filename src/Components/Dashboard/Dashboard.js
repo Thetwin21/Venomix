@@ -1,8 +1,9 @@
 import React from 'react'
-import Navbar from "../Navcontents/Navbar.js";
+import Navbar from "../Navcontents/Navbar";
 import DashboardNav from "./DashboardNav.js"
 import DashboardPanel from "./DashboardPanel.js"
 import FooterContainer from "../Footer/FooterContainer";
+
 
 const Dashboard = () => {
   return (

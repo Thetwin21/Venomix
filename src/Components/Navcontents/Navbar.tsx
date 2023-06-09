@@ -37,22 +37,18 @@ const Navbar = ({venomConnect}: Props) => {
       <div className="flex flex-row justify-between items-center lg:flex">
         <img src={logo} alt="" className="w-auto h-14" />
         <div className="lg:flex hidden flex-row justify-between items-center space-x-10">
-          <Link
-            to="/create-profile"
-            className="font-medium hover:cursor-pointer hover:font-bold"
-          >
+  
+          <ConnectWallet>    
+          <a className="btn hover:cursor-pointer font-medium hover:font-bold" onClick={login}>
             Create Events
-          </Link>
+        </a></ConnectWallet>
           <Link to="" className="hover:cursor-pointer font-medium hover:font-bold">
             Your Tickets
           </Link>
           <Link to="" className="hover:cursor-pointer font-medium hover:font-bold">
             Contacts
           </Link>
-          <ConnectWallet>    
-          <a className="btn" onClick={login}>
-          Connect wallet
-        </a></ConnectWallet>
+        
         </div>
         <div className="lg:hidden block text-customDarkBlue">
           <i className="la la-bars la-2x" id="bars" onClick={openNav}></i>
@@ -67,12 +63,10 @@ const Navbar = ({venomConnect}: Props) => {
         className="flex flex-col justify-between items-start space-y-5 mt-10 hidden"
         id="mobileNav"
       >
-        <Link
-          to="/create-profile"
-          className="font-medium hover:cursor-pointer hover:font-bold"
-        >
-          Create Events
-        </Link>
+            <ConnectWallet>    
+          <a className="btn hover:cursor-pointer font-medium hover:font-bold" onClick={login}>
+          Create Event
+        </a></ConnectWallet>
         <Link to="" className="hover:cursor-pointer font-medium hover:font-bold">
           Your Tickets
         </Link>
